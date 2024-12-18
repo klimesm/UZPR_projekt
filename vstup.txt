@@ -1,0 +1,13 @@
+# # Název zájmové obce
+# obec_zajmu = "Katovice"
+# 
+# # Jaký produkt Sentinel chceme
+# product = "S2_MSI_L2A" 
+# 
+# # Pro jaké období chce najít snímmky
+# start = "2024-10-01"
+# end = "2024-10-23"
+# 
+# # Přihlašovací údaje pro Copernicus
+# username = "cernote2@cvut.cz"
+# password = "Copernicus*2024UZPR"
