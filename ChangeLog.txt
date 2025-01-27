@@ -1,0 +1,15 @@
+Úpravy projektu Klasifikace dat Sentinel-2
+155UZPR - k155, FSv ČVUT
+Matěj Klimeš, Tereza Černohousová
+
+Oprava 1 - zadávání hesla: 
+Nově není heslo zadáváno jako plain text, ale jako portable password input pomocí getpass.getpass.
+
+Oprava 2 - Rozsah hodnot AWEIsh: 
+Pro normalizaci rozsahu hodnot indexu AWEIsh byla modifikována a použita funkce normalize, která byla již dříve vytvořena pro normalizace R, G, B pásem.
+Do funkce bylo nutné využít příkaz np.nanmin a np.nanmax pro hledání minimálních a maximálních hodnot v rastru s ohledem na NaN hodnoty.
+Index AWEIsh byl normalizován na hodnoty od 0 do 1.
+
+Oprava 3 - Drobné úpravy:
+Ke všem vytvořeným funkcím byl doplněn jejich popis. 
+Bylo opraveno formátování kódu a doplněny zdroje informací využité pro předchozí dvě opravy.
